@@ -24,6 +24,9 @@ import java.util.HashMap;
 public class SampleGattAttributes {
     private static HashMap<String, String> attributes = new HashMap();
     public static String HEART_RATE_MEASUREMENT = "00002a37-0000-1000-8000-00805f9b34fb";
+    public static String MEASUREMENT_SERVICE = "15172001-4947-11e9-8646-d663bd873d93";
+    public static String PAYLOAD_CONFIG = "15172000-4947-11e9-8646-d663bd873d93";
+    public static String SENSOR_DATA = "15172003-4947-11e9-8646-d663bd873d93";
     public static String CLIENT_CHARACTERISTIC_CONFIG = "00002902-0000-1000-8000-00805f9b34fb";
 
     static {

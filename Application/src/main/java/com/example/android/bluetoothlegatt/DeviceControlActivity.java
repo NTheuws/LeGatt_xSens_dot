@@ -65,6 +65,11 @@ public class DeviceControlActivity extends Activity {
     private final String LIST_NAME = "NAME";
     private final String LIST_UUID = "UUID";
 
+    private final String BLE_UUID_SYNC = "15177001494711e98646d663bd873d93";
+    private final String BLE_UUID_READ_ACK = "15177002494711e98646d663bd873d93";
+    private final String BLE_UUID_MEDIUM_PAYLOAD = "15172003494711e98646d663bd873d93";
+    private final String BLE_UUID_START_MEASUREMENT = "15172001494711e98646d663bd873d93";
+
     // Code to manage Service lifecycle.
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
 
